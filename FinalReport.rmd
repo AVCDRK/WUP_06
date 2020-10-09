@@ -18,9 +18,9 @@ GSS <-read.csv(file="GSScsv.csv",header=TRUE)
 
 Is belief in the bigbang theory (BIGBANG) independent of belief in an afterlife (POSTLIFE)?
 
-$H_0$ The Null Hypothesis is that there is no relationship belief in the (BIGBANG) theory and belief in in the afterlife (POSTLIFE).
+$H_0$ The Null Hypothesis is that there is no independent relationship belief in the (BIGBANG) theory and belief in in the afterlife (POSTLIFE).
 
-$H_0$ The alternative hypothesis is that there is relationship between belief in the after (POSTLIFE).
+$H_0$ The alternative hypothesis is that there is independent relationship between belief in the after (POSTLIFE).
 
 # Methods
 
@@ -66,4 +66,4 @@ fisher.test(table1)
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-There is no evidence 
+There is no evidence that the null hypothesis here is no independent relationship belief in the (BIGBANG) theory and belief in in the afterlife (POSTLIFE).
